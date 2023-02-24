@@ -111,3 +111,27 @@ button {
 .cards-info p {
     flex-wrap: wrap;
 }
+
+.container-quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.container-quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+    text-align: left;
+}
+
+.container-quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+    justify-content: center;
+}
