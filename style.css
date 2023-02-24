@@ -1,5 +1,6 @@
 .body {
     background: #1F2937;
+    
 }
 
 .header {
@@ -28,4 +29,44 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
+}
+
+button {
+    color: white;
+    border-radius: 2px;
+    background: #3882F6;
+}
+
+.button-one {
+    display: block;
+    border: none;
+    text-align: center;
+    width: 110px;
+    padding: 10px;
+}
+
+.container-one {
+    display: flex;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.information-one {
+    display: flex;
+    flex-basis: 400px;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.information-one p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+}
+
+.img-one img {
+    width: 500px;
+    height: 350px;
 }
